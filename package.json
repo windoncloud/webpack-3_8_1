@@ -1,0 +1,26 @@
+{
+  "name": "webpack-3_8_1",
+  "version": "1.0.0",
+  "description": "practice makes perfect",
+  "main": "index.js",
+  "scripts": {
+    "test": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/windoncloud/webpack-3_8_1.git"
+  },
+  "keywords": [
+    "webpack",
+    "practice",
+    "in",
+    "version",
+    "3.8.1"
+  ],
+  "author": "kingsley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/windoncloud/webpack-3_8_1/issues"
+  },
+  "homepage": "https://github.com/windoncloud/webpack-3_8_1#readme"
+}
