@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/windoncloud/webpack-3_8_1/issues"
   },
-  "homepage": "https://github.com/windoncloud/webpack-3_8_1#readme"
+  "homepage": "https://github.com/windoncloud/webpack-3_8_1#readme",
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  }
 }
