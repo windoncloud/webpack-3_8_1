@@ -67,19 +67,28 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(1)
-const show = __webpack_require__(2)
-show('Webpack')
+__webpack_require__(1);
+(function webpackMissingModule() { throw new Error("Cannot find module \"dev\""); }());
+(function webpackMissingModule() { throw new Error("Cannot find module \"server\""); }());
 
 
 /***/ }),
 /* 1 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(2)
+const show = __webpack_require__(3)
+show('Webpack')
+
+
+/***/ }),
+/* 2 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 2 */
+/* 3 */
 /***/ (function(module, exports) {
 
 function show(content) {
