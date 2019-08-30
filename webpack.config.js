@@ -1,5 +1,7 @@
 const path = require('path')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
+const HotModuleReplacementPlugin = require('webpack/lib/HotModuleReplacementPlugin')
+// page 180
 module.exports = {
     entry: './main.js',
     output: {
